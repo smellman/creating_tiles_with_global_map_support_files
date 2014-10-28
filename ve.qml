@@ -5,26 +5,26 @@
       <rasterTransparency/>
       <colorPalette>
         <paletteEntry value="0" color="#000000" label="0"/>
-        <paletteEntry value="1" color="#003200" label="1"/>
-        <paletteEntry value="2" color="#3c9600" label="2"/>
-        <paletteEntry value="3" color="#006e00" label="3"/>
-        <paletteEntry value="4" color="#556e19" label="4"/>
-        <paletteEntry value="5" color="#00c800" label="5"/>
-        <paletteEntry value="6" color="#8cbe8c" label="6"/>
-        <paletteEntry value="7" color="#467864" label="7"/>
-        <paletteEntry value="8" color="#b4e664" label="8"/>
-        <paletteEntry value="9" color="#9bc832" label="9"/>
-        <paletteEntry value="10" color="#ebff64" label="10"/>
-        <paletteEntry value="11" color="#f06432" label="11"/>
-        <paletteEntry value="12" color="#9132e6" label="12"/>
-        <paletteEntry value="13" color="#e664e6" label="13"/>
-        <paletteEntry value="14" color="#9b82e6" label="14"/>
-        <paletteEntry value="15" color="#b4fef0" label="15"/>
-        <paletteEntry value="16" color="#646464" label="16"/>
-        <paletteEntry value="17" color="#c8c8c8" label="17"/>
-        <paletteEntry value="18" color="#ff0000" label="18"/>
-        <paletteEntry value="19" color="#ffffff" label="19"/>
-        <paletteEntry value="20" color="#5adcdc" label="20"/>
+        <paletteEntry value="1" color="#000000" label="1"/>
+        <paletteEntry value="2" color="#000000" label="2"/>
+        <paletteEntry value="3" color="#000000" label="3"/>
+        <paletteEntry value="4" color="#000000" label="4"/>
+        <paletteEntry value="5" color="#000000" label="5"/>
+        <paletteEntry value="6" color="#000000" label="6"/>
+        <paletteEntry value="7" color="#000000" label="7"/>
+        <paletteEntry value="8" color="#000000" label="8"/>
+        <paletteEntry value="9" color="#000000" label="9"/>
+        <paletteEntry value="10" color="#079013" label="10"/>
+        <paletteEntry value="11" color="#000000" label="11"/>
+        <paletteEntry value="12" color="#000000" label="12"/>
+        <paletteEntry value="13" color="#000000" label="13"/>
+        <paletteEntry value="14" color="#000000" label="14"/>
+        <paletteEntry value="15" color="#000000" label="15"/>
+        <paletteEntry value="16" color="#000000" label="16"/>
+        <paletteEntry value="17" color="#000000" label="17"/>
+        <paletteEntry value="18" color="#000000" label="18"/>
+        <paletteEntry value="19" color="#000000" label="19"/>
+        <paletteEntry value="20" color="#03a702" label="20"/>
         <paletteEntry value="21" color="#000000" label="21"/>
         <paletteEntry value="22" color="#000000" label="22"/>
         <paletteEntry value="23" color="#000000" label="23"/>
@@ -34,7 +34,7 @@
         <paletteEntry value="27" color="#000000" label="27"/>
         <paletteEntry value="28" color="#000000" label="28"/>
         <paletteEntry value="29" color="#000000" label="29"/>
-        <paletteEntry value="30" color="#000000" label="30"/>
+        <paletteEntry value="30" color="#6aef35" label="30"/>
         <paletteEntry value="31" color="#000000" label="31"/>
         <paletteEntry value="32" color="#000000" label="32"/>
         <paletteEntry value="33" color="#000000" label="33"/>
@@ -44,7 +44,7 @@
         <paletteEntry value="37" color="#000000" label="37"/>
         <paletteEntry value="38" color="#000000" label="38"/>
         <paletteEntry value="39" color="#000000" label="39"/>
-        <paletteEntry value="40" color="#000000" label="40"/>
+        <paletteEntry value="40" color="#e4d05b" label="40"/>
         <paletteEntry value="41" color="#000000" label="41"/>
         <paletteEntry value="42" color="#000000" label="42"/>
         <paletteEntry value="43" color="#000000" label="43"/>
@@ -54,7 +54,7 @@
         <paletteEntry value="47" color="#000000" label="47"/>
         <paletteEntry value="48" color="#000000" label="48"/>
         <paletteEntry value="49" color="#000000" label="49"/>
-        <paletteEntry value="50" color="#000000" label="50"/>
+        <paletteEntry value="50" color="#ffd484" label="50"/>
         <paletteEntry value="51" color="#000000" label="51"/>
         <paletteEntry value="52" color="#000000" label="52"/>
         <paletteEntry value="53" color="#000000" label="53"/>
@@ -64,7 +64,7 @@
         <paletteEntry value="57" color="#000000" label="57"/>
         <paletteEntry value="58" color="#000000" label="58"/>
         <paletteEntry value="59" color="#000000" label="59"/>
-        <paletteEntry value="60" color="#000000" label="60"/>
+        <paletteEntry value="60" color="#00a60c" label="60"/>
         <paletteEntry value="61" color="#000000" label="61"/>
         <paletteEntry value="62" color="#000000" label="62"/>
         <paletteEntry value="63" color="#000000" label="63"/>
@@ -74,7 +74,7 @@
         <paletteEntry value="67" color="#000000" label="67"/>
         <paletteEntry value="68" color="#000000" label="68"/>
         <paletteEntry value="69" color="#000000" label="69"/>
-        <paletteEntry value="70" color="#000000" label="70"/>
+        <paletteEntry value="70" color="#20622b" label="70"/>
         <paletteEntry value="71" color="#000000" label="71"/>
         <paletteEntry value="72" color="#000000" label="72"/>
         <paletteEntry value="73" color="#000000" label="73"/>
@@ -84,7 +84,7 @@
         <paletteEntry value="77" color="#000000" label="77"/>
         <paletteEntry value="78" color="#000000" label="78"/>
         <paletteEntry value="79" color="#000000" label="79"/>
-        <paletteEntry value="80" color="#000000" label="80"/>
+        <paletteEntry value="80" color="#74a552" label="80"/>
         <paletteEntry value="81" color="#000000" label="81"/>
         <paletteEntry value="82" color="#000000" label="82"/>
         <paletteEntry value="83" color="#000000" label="83"/>
@@ -94,7 +94,7 @@
         <paletteEntry value="87" color="#000000" label="87"/>
         <paletteEntry value="88" color="#000000" label="88"/>
         <paletteEntry value="89" color="#000000" label="89"/>
-        <paletteEntry value="90" color="#000000" label="90"/>
+        <paletteEntry value="90" color="#9afa10" label="90"/>
         <paletteEntry value="91" color="#000000" label="91"/>
         <paletteEntry value="92" color="#000000" label="92"/>
         <paletteEntry value="93" color="#000000" label="93"/>
@@ -104,7 +104,7 @@
         <paletteEntry value="97" color="#000000" label="97"/>
         <paletteEntry value="98" color="#000000" label="98"/>
         <paletteEntry value="99" color="#000000" label="99"/>
-        <paletteEntry value="100" color="#000000" label="100"/>
+        <paletteEntry value="100" color="#9d9d4d" label="100"/>
         <paletteEntry value="101" color="#000000" label="101"/>
         <paletteEntry value="102" color="#000000" label="102"/>
         <paletteEntry value="103" color="#000000" label="103"/>
@@ -114,7 +114,7 @@
         <paletteEntry value="107" color="#000000" label="107"/>
         <paletteEntry value="108" color="#000000" label="108"/>
         <paletteEntry value="109" color="#000000" label="109"/>
-        <paletteEntry value="110" color="#000000" label="110"/>
+        <paletteEntry value="110" color="#9d9d78" label="110"/>
         <paletteEntry value="111" color="#000000" label="111"/>
         <paletteEntry value="112" color="#000000" label="112"/>
         <paletteEntry value="113" color="#000000" label="113"/>
@@ -124,7 +124,7 @@
         <paletteEntry value="117" color="#000000" label="117"/>
         <paletteEntry value="118" color="#000000" label="118"/>
         <paletteEntry value="119" color="#000000" label="119"/>
-        <paletteEntry value="120" color="#000000" label="120"/>
+        <paletteEntry value="120" color="#084813" label="120"/>
         <paletteEntry value="121" color="#000000" label="121"/>
         <paletteEntry value="122" color="#000000" label="122"/>
         <paletteEntry value="123" color="#000000" label="123"/>
@@ -134,7 +134,7 @@
         <paletteEntry value="127" color="#000000" label="127"/>
         <paletteEntry value="128" color="#000000" label="128"/>
         <paletteEntry value="129" color="#000000" label="129"/>
-        <paletteEntry value="130" color="#000000" label="130"/>
+        <paletteEntry value="130" color="#2c4428" label="130"/>
         <paletteEntry value="131" color="#000000" label="131"/>
         <paletteEntry value="132" color="#000000" label="132"/>
         <paletteEntry value="133" color="#000000" label="133"/>
@@ -144,7 +144,7 @@
         <paletteEntry value="137" color="#000000" label="137"/>
         <paletteEntry value="138" color="#000000" label="138"/>
         <paletteEntry value="139" color="#000000" label="139"/>
-        <paletteEntry value="140" color="#000000" label="140"/>
+        <paletteEntry value="140" color="#007fff" label="140"/>
         <paletteEntry value="141" color="#000000" label="141"/>
         <paletteEntry value="142" color="#000000" label="142"/>
         <paletteEntry value="143" color="#000000" label="143"/>
@@ -154,7 +154,7 @@
         <paletteEntry value="147" color="#000000" label="147"/>
         <paletteEntry value="148" color="#000000" label="148"/>
         <paletteEntry value="149" color="#000000" label="149"/>
-        <paletteEntry value="150" color="#000000" label="150"/>
+        <paletteEntry value="150" color="#ffffff" label="150"/>
         <paletteEntry value="151" color="#000000" label="151"/>
         <paletteEntry value="152" color="#000000" label="152"/>
         <paletteEntry value="153" color="#000000" label="153"/>
@@ -214,7 +214,7 @@
         <paletteEntry value="207" color="#000000" label="207"/>
         <paletteEntry value="208" color="#000000" label="208"/>
         <paletteEntry value="209" color="#000000" label="209"/>
-        <paletteEntry value="210" color="#000000" label="210"/>
+        <paletteEntry value="210" color="#3e0f0f" label="210"/>
         <paletteEntry value="211" color="#000000" label="211"/>
         <paletteEntry value="212" color="#000000" label="212"/>
         <paletteEntry value="213" color="#000000" label="213"/>
@@ -224,7 +224,7 @@
         <paletteEntry value="217" color="#000000" label="217"/>
         <paletteEntry value="218" color="#000000" label="218"/>
         <paletteEntry value="219" color="#000000" label="219"/>
-        <paletteEntry value="220" color="#000000" label="220"/>
+        <paletteEntry value="220" color="#a89811" label="220"/>
         <paletteEntry value="221" color="#000000" label="221"/>
         <paletteEntry value="222" color="#000000" label="222"/>
         <paletteEntry value="223" color="#000000" label="223"/>
@@ -234,7 +234,7 @@
         <paletteEntry value="227" color="#000000" label="227"/>
         <paletteEntry value="228" color="#000000" label="228"/>
         <paletteEntry value="229" color="#000000" label="229"/>
-        <paletteEntry value="230" color="#000000" label="230"/>
+        <paletteEntry value="230" color="#d2f00a" label="230"/>
         <paletteEntry value="231" color="#000000" label="231"/>
         <paletteEntry value="232" color="#000000" label="232"/>
         <paletteEntry value="233" color="#000000" label="233"/>
@@ -244,7 +244,7 @@
         <paletteEntry value="237" color="#000000" label="237"/>
         <paletteEntry value="238" color="#000000" label="238"/>
         <paletteEntry value="239" color="#000000" label="239"/>
-        <paletteEntry value="240" color="#000000" label="240"/>
+        <paletteEntry value="240" color="#ff7c64" label="240"/>
         <paletteEntry value="241" color="#000000" label="241"/>
         <paletteEntry value="242" color="#000000" label="242"/>
         <paletteEntry value="243" color="#000000" label="243"/>
@@ -254,12 +254,12 @@
         <paletteEntry value="247" color="#000000" label="247"/>
         <paletteEntry value="248" color="#000000" label="248"/>
         <paletteEntry value="249" color="#000000" label="249"/>
-        <paletteEntry value="250" color="#000000" label="250"/>
+        <paletteEntry value="250" color="#919191" label="250"/>
         <paletteEntry value="251" color="#000000" label="251"/>
         <paletteEntry value="252" color="#000000" label="252"/>
         <paletteEntry value="253" color="#000000" label="253"/>
         <paletteEntry value="254" color="#000000" label="254"/>
-        <paletteEntry value="255" color="#ffdcb4" label="255"/>
+        <paletteEntry value="255" color="#000000" label="255"/>
       </colorPalette>
     </rasterrenderer>
     <brightnesscontrast brightness="0" contrast="0"/>
