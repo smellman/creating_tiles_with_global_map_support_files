@@ -1,0 +1,1 @@
+@python "C:\OSGeo4W\apps\Python27\Scripts\mb-util" %*  
