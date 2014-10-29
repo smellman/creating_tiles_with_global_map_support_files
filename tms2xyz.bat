@@ -1,0 +1,1 @@
+@python "%OSGEO4W_ROOT%\bin\tms2xyz.py" %*  
