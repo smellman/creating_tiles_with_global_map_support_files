@@ -1,0 +1,133 @@
+{
+    "version": 8,
+    "name": "iscgm-japan",
+    "zoom": 10,
+    "center": [139.77669, 35.68418],
+    "glyphs": "./ipaexg-font-glyphs/{range}.pbf",
+    "sprite": "./maki-sprites/sprite",
+    "sources": {
+        "main": {
+            "type": "vector",
+            "tiles": [
+                "http://localhost:7777/tiles/{z}/{x}/{y}.pbf"
+            ],
+            "minzoom": 0,
+            "maxzoom": 22
+        }
+    },
+    "layers": [
+        {
+            "id": "background",
+            "type": "background",
+            "paint": {
+                "background-color": "#ffffff"
+            }
+        }, {
+            "id": "coastljpn",
+            "type": "line",
+            "source": "main",
+            "source-layer": "coastljpn",
+            "layout": {
+                "line-cap": "butt",
+                "line-join": "round"
+            },                
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1
+            }
+        }, {
+            "id": "ferryljpn",
+            "type": "line",
+            "source": "main",
+            "source-layer": "ferryljpn",
+            "layout": {
+                "line-cap": "butt",
+                "line-join": "round"
+            },                
+            "paint": {
+                "line-color": "#80A6FF",
+                "line-width": 1.5,
+                "line-dasharray": [4, 2]
+            }
+        }, {
+            "id": "riverl",
+            "type": "line",
+            "source": "main",
+            "source-layer": "riverljpn",
+            "layout": {
+                "line-cap": "butt",
+                "line-join": "round"
+            },                
+            "paint": {
+                "line-color": "#99ffff"
+            }
+        }, {
+            "id": "polbndl_international",
+            "type": "line",
+            "source": "main",
+            "source-layer": "polbndljpn",
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },                
+            "paint": {
+                "line-color": "#000000"
+            },
+            "filter": ["==", "use", 23]
+        }, {
+            "id": "polbndl_primary",
+            "type": "line",
+            "source": "main",
+            "source-layer": "polbndljpn",
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#E61A00"
+            },
+            "filter": ["==", "use", 26],
+            "minzoom": 6
+        }, {
+            "id": "polbndl_secondary",
+            "type": "line",
+            "source": "main",
+            "source-layer": "polbndljpn",
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#9966FF"
+            },
+            "filter": ["==", "use", 30],
+            "minzoom": 10
+        }, {
+            "id": "airpjpn",
+            "type": "symbol",
+            "source": "main",
+            "source-layer": "airpjpn",
+            "layout": {
+                "icon-image": "airport-24"
+            }
+        }, {
+            "id": "builtupa",
+            "type": "fill",
+            "source": "main",
+            "source-layer": "builtupajpn",
+            "paint": {
+                "fill-opacity": 0.1,
+                "fill-color": "#000000"
+            }
+        }, {
+            "id": "inwatera",
+            "type": "fill",
+            "source": "main",
+            "source-layer": "inwaterajpn",
+            "paint": {
+                "fill-opacity": 1,
+                "fill-color": "#99ffff"
+            }
+        }
+    ]
+}
