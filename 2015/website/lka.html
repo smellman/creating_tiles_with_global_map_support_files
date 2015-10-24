@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sri Lanka Map</title>
+<link rel="stylesheet" href="./leaflet/leaflet.css" />
+<script src="./leaflet/leaflet.js"></script>
+
+<style>
+  body {padding: 0; margin: 0}
+  html, body, #map {height: 100%; width: 100%;}
+  .leaflet-container {background: #fff;}
+</style>
+</head>
+
+<body>
+<div id="map">
+<script>
+var basemap = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: "© OpenStreetMap contributors"
+});
+
+var map = L.map('map', {
+  center: [7.7110,80.5078],
+  zoom: 7,
+  layers: [basemap]
+});
+
+var bnd_layer = L.tileLayer('./lka/tiles/lka_bnd/{z}/{x}/{y}.png');
+var transports_layer = L.tileLayer('./lka/tiles/lka_transports/{z}/{x}/{y}.png');
+var elevation_layer = L.tileLayer('./lka/tiles/el_lka/{z}/{x}/{y}.png');
+
+var base_layers = {
+  "OpenStreetMap": basemap
+};
+
+var overlay_layers = {
+  "Boundary": bnd_layer,
+  "Transports": transports_layer,
+  "Elevation": elevation_layer
+};
+
+L.control.layers(base_layers, overlay_layers).addTo(map);
+
+</script>
+</body>
+</html>
