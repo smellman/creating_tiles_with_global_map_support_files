@@ -13,15 +13,9 @@ virtualenv env
 source env/bin/activate
 pip install GDAL
 python gen_mml.py . project.mml
-npm install carto
+npm install
 carto project.mml > project.xml
-npm install mapnik@3.x
-npm install tilelive-bridge
-npm install express
-cp server.js test.js
-vi test.js
-# replace your full path: bridge://home/user/work/demo/project.xml
-node test.js
+npm run start
 ```
 
 Run vector tiles server with port 7777.
@@ -30,8 +24,8 @@ other console:
 
 ```bash
 cd demosites
-npm install -g serve
-serve -p 8000 -C
+npm install
+npm run start
 ```
 
 Web server run with port 8000.
@@ -45,18 +39,16 @@ Mapbox GL need glphys and sprites if you need to use text and images.
 ### make glphys pbf
 
 ```bash
-npm install -g fontnik
-build-glyphs {your font path}/ipaexg.ttf ipaexg-font-glyphs
+mkdir -p fonts/"Open Sans Regular,Arial Unicode MS Regular"
+npm run fontnik OpenSans-Regular.ttf fonts/"Open Sans Regular,Arial Unicode MS Regular"
 ```
 
 ### make sprite images
 
 ```bash
-npm install -g spritezero-cli
-curl -L -o maki-0.5.0.tar.gz https://github.com/mapbox/maki/archive/v0.5.0.tar.gz
-tar zxf maki-0.5.0.tar.gz
-rm maki-0.5.0/src/*.ai
+curl -L -o maki-2.0.5.tar.gz https://github.com/mapbox/maki/archive/v2.0.5.zip
+tar zxf maki-2.0.5.tar.gz
 mkdir maki-sprites
-spritezero maki-sprites/sprite maki-0.5.0/src
-spritezero --retina maki-sprites/sprite@2x maki-0.5.0/src
+npm run spritezero maki-sprites/sprite maki-2.0.5/icons
+npm run spritezero --retina maki-sprites/sprite@2x maki-2.0.5/icons
 ```

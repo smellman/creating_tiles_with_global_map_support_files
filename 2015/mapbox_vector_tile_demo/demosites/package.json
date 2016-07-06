@@ -1,0 +1,19 @@
+{
+  "name": "demosites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fontnik": "build-glyphs",
+    "spritezero": "spritezero",
+    "start": "serve -p 8000 -C"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "fontnik": "^0.4.4",
+    "serve": "^1.4.0",
+    "spritezero-cli": "^1.1.0"
+  }
+}

@@ -3,7 +3,7 @@
     "name": "iscgm-japan",
     "zoom": 10,
     "center": [139.77669, 35.68418],
-    "glyphs": "./ipaexg-font-glyphs/{range}.pbf",
+    "glyphs": "./fonts/{fontstack}/{range}.pbf",
     "sprite": "./maki-sprites/sprite",
     "sources": {
         "main": {
@@ -30,7 +30,7 @@
             "layout": {
                 "line-cap": "butt",
                 "line-join": "round"
-            },                
+            },
             "paint": {
                 "line-color": "#000000",
                 "line-width": 1
@@ -43,7 +43,7 @@
             "layout": {
                 "line-cap": "butt",
                 "line-join": "round"
-            },                
+            },
             "paint": {
                 "line-color": "#80A6FF",
                 "line-width": 1.5,
@@ -57,7 +57,7 @@
             "layout": {
                 "line-cap": "butt",
                 "line-join": "round"
-            },                
+            },
             "paint": {
                 "line-color": "#99ffff"
             }
@@ -69,7 +69,7 @@
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
-            },                
+            },
             "paint": {
                 "line-color": "#000000"
             },
@@ -108,7 +108,10 @@
             "source": "main",
             "source-layer": "airpjpn",
             "layout": {
-                "icon-image": "airport-24"
+                "icon-image": "airport-15",
+                "text-field": "{nam}",
+                "text-anchor": "top",
+                "text-offset": [0, 0.5]
             }
         }, {
             "id": "builtupa",
@@ -126,7 +129,7 @@
             "source-layer": "inwaterajpn",
             "paint": {
                 "fill-opacity": 1,
-                "fill-color": "#99ffff"
+                "fill-color": "#99ff00"
             }
         }
     ]

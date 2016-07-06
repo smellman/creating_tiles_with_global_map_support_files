@@ -1,0 +1,20 @@
+{
+  "name": "vector_tiles",
+  "version": "1.0.0",
+  "description": "vector tiles example",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "carto": "^0.16.3",
+    "express": "^4.14.0",
+    "tilelive": "^5.12.2",
+    "tilelive-bridge": "^2.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "carto": "carto project.mml > project.xml"
+  },
+  "author": "",
+  "license": "MIT"
+}
