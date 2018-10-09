@@ -13,7 +13,7 @@
   "license": "MIT",
   "devDependencies": {
     "fontnik": "^0.4.4",
-    "serve": "^1.4.0",
+    "serve": "^10.0.2",
     "spritezero-cli": "^1.1.0"
   }
 }
